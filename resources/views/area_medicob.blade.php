@@ -1,0 +1,16 @@
+@extends('layouts.area_medica')
+@section('plan_precio')
+{{55}}
+@endsection
+@section('ruta_actualizar')
+{{route('f_andromeda_editar',$user)}}
+@endsection
+@section('ruta_pagar')
+{{route('pedidob',$user)}}
+@endsection
+@section('titulo_plan')
+Fenix
+@endsection
+@section('mejoras')
+Mejorar/Desmejorar
+@endsection

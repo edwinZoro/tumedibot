@@ -1,0 +1,54 @@
+
+  .back{
+      background-image: url('../../../tumedibot/images/imagencitaB.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
+  .backb{
+      background-image: url('../../../tumedibot/images/imageBB.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
+  .invert{
+      filter:invert(100);
+  }
+  .enterprise_title{
+    font-size: 60px;
+    background: -webkit-linear-gradient(45deg,#2f64db,#13ef7f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .red{
+    color: red;
+  }
+  .green{
+    color: green;
+  }
+  .darkblue{
+    color:darkblue;
+  }
+  .black{
+    color: black;
+  }
+
+  .shadow{
+      filter:drop-shadow(0 0 4px black);
+      width: 400px;
+      height: 400px;
+  }
+  .shadow:hover{
+      transform: scale(0.97777);
+      transition:all 2s;
+  }
+  .p{
+      font-size: 20px;
+  }
+  @media(max-width: 600px){
+  .shadow{
+      width: 300px;
+      height: 300px;
+  }
+  .p {
+      font-size: 15px;
+  }
+  }

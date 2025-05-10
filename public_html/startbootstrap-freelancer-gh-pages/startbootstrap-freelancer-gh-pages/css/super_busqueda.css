@@ -1,0 +1,28 @@
+#area_empresarial{
+  display: none;
+}    
+#area_medico{
+  display: none;
+}
+.ending{
+  display: none;
+}
+
+/*Clinicas*/
+.imagen_clinicase{
+  width: 200px;
+  height: 130px;
+ }
+.imagen_clinicasd{
+  width: 200px;
+  height: 130px;
+ }
+@media(max-width: 600px){
+ .imagen_clinicase{
+  display: none;
+ }
+ .imagen_clinicasd{
+  width: 100px;
+  height: 65px;
+ }
+}

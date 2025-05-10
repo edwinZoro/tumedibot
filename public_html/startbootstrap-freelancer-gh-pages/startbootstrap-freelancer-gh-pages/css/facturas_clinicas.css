@@ -1,0 +1,18 @@
+#area_empresarial{
+  display: none;
+}    
+#area_medico{
+   display: none;
+}
+.bg{
+background: hsla(192, 96%, 50%, 1);
+
+background: linear-gradient(90deg, hsla(192, 96%, 50%, 1) 0%, hsla(65, 92%, 54%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(192, 96%, 50%, 1) 0%, hsla(65, 92%, 54%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(192, 96%, 50%, 1) 0%, hsla(65, 92%, 54%, 1) 100%);
+}
+.shadows{
+text-shadow: 0 0 3px white,0 0 6px white,0 0 10px black;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tumedibot</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="..\..\icon_medibot.png">
+</head>
+<body>
+    <div class="container-fluid my-4">
+		<h1 class="text-center text-primary">Direcciones Crypto</h1>
+		<h3><span style="color:red">Advertencia: </span>No depositar ningún tipo de NTF en ninguna de las direcciones. Considere que depositar en una red o dirección erronea puede llevarlo a perder su dinero.</h3>
+		<div class="container border border-dark rounded  p-4">
+	        <div class="row">
+	            <div class="col-md-6">
+	                <h2 style="color:red">Deposita USDT en la red Tron</h2>
+	                <img src="IMG-20250125-WA0006.jpg" class="img-fluid" alt="Imagen 1">
+	                <pre style="color:red" class="ms-2" id="subtitulo1">TLhyQnNenJZRUVsU2isaqprU1jivWQ8eHb</pre>
+	                <button class="btn btn-primary btn-sm ms-2" onclick="copiarSubtitulo('subtitulo1')"><i class="fa-solid fa-copy"></i> Copiar Dirección </button>
+	            </div>
+	            <div class="col-md-6">
+	                <h2 style="color:green">Deposita USDT en la red Bep20</h2>
+	                <img src="IMG-20250125-WA0007.jpg" class="img-fluid" alt="Imagen 2">
+	                <pre style="color:green"  class="ms-2" id="subtitulo2">0x7717f3e2887e858102053f6e49f74c262b2a52cb</pre>
+	                <button class="btn btn-sm btn-primary ms-2" onclick="copiarSubtitulo('subtitulo2')"><i class="fa-solid fa-copy"></i> Copiar Dirección</button>
+	            </div>
+	        </div>
+	        <div class="row mt-2">
+	            <div class="col-md-6">
+	                <h2 style="color:darkorange">Deposita BTC en la red Bitcoin</h2>
+	                <img src="IMG-20250125-WA0008.jpg" class="img-fluid" alt="Imagen 3">
+	                <pre style="color:darkorange" class="ms-2" id="subtitulo3">1EtumQ6NmgKNScCjmxdEqrdcNwPd9XKYVv</pre>
+	                <button class="btn btn-sm btn-primary ms-2" onclick="copiarSubtitulo('subtitulo3')"><i class="fa-solid fa-copy"></i> Copiar Dirección</button>
+	            </div>
+	            <div class="col-md-6">
+	                <h2 style="color:green" >Deposita BTC en la red Bep20</h2>
+	                <img src="IMG-20250125-WA0009.jpg" class="img-fluid" alt="Imagen 4">
+	               	<pre style="color:green" class="ms-2" id="subtitulo4">0x7717f3e2887e858102053f6e49f74c262b2a52cb</pre>
+	                <button class="btn btn-sm btn-primary ms-2" onclick="copiarSubtitulo('subtitulo4')"><i class="fa-solid fa-copy"></i> Copiar Dirección</button>
+	            </div>
+	        </div>
+	    </div>    
+    </div>
+
+    <script>
+        function copiarSubtitulo(id) {
+            var texto = document.getElementById(id).textContent;
+            navigator.clipboard.writeText(texto).then(() => {
+                alert("¡Dirección copiada !");
+            }).catch(err => {
+                console.error('Error al copiar el texto: ', err);
+            });
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

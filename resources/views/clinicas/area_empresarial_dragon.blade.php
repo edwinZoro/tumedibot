@@ -1,0 +1,16 @@
+@extends('clinicas.area_empresarial')
+@section('plan_precio')
+{{300}}
+@endsection
+@section('ruta_actualizar')
+{{route('editar_factura_empresarial',$user)}}
+@endsection
+@section('ruta_pagar')
+{{route('pedido_empresarial_dragon',$user)}}
+@endsection
+@section('titulo_plan')
+Drag&oacute;n
+@endsection
+@section('mejoras')
+Desmejorar
+@endsection

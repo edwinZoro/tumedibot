@@ -1,0 +1,79 @@
+@font-face{
+	font-family: a;
+	src:url(ocr-a.ttf);
+}
+.fuente_a{
+	font-family: a;
+}
+
+@font-face{
+	font-family: b;
+	src:url(castellar.ttf);
+}
+.fuente_b{
+	font-family: b;
+}
+
+@font-face{
+	font-family: c;
+	src:url(comic-sans-ms-4.ttf);
+}
+.fuente_c{
+	font-family: c;
+}
+
+@font-face{
+	font-family: d;
+	src:url(mistral.ttf);
+}
+.fuente_d{
+	font-family: d;
+}
+
+@font-face{
+	font-family: e;
+	src:url(AkayaKanadaka-Regular.ttf);
+}
+.fuente_e{
+	font-family: e;
+}
+
+@font-face{
+	font-family: f;
+	src:url(Baloo2-Bold.ttf);
+}
+.fuente_f{
+	font-family: f;
+}
+
+@font-face{
+	font-family: g;
+	src:url(IndieFlower-Regular.ttf);
+}
+.fuente_g{
+	font-family: g;
+}
+
+@font-face{
+	font-family: h;
+	src:url(Tourney.ttf);
+}
+.fuente_h{
+	font-family:h;
+}
+
+@font-face{
+	font-family: i;
+	src:url(Yellowtail-Regular.ttf);
+}
+.fuente_i{
+	font-family:i;
+}
+
+@font-face{
+	font-family: j;
+	src:url(papyrus.ttf);
+}
+.fuente_j{
+	font-family:j;
+}

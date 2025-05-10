@@ -1,0 +1,16 @@
+@extends('clinicas.area_empresarial')
+@section('plan_precio')
+{{170}}
+@endsection
+@section('ruta_actualizar')
+{{route('editar_factura_empresarial',$user)}}
+@endsection
+@section('ruta_pagar')
+{{route('pedido_empresarial_aioria',$user)}}
+@endsection
+@section('titulo_plan')
+Aioria
+@endsection
+@section('mejoras')
+Mejorar/Desmejorar
+@endsection
